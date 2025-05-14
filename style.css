@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding-top: 0;
+}
+.nav-bar{
+    background-color: #2f7d32;
+    color: #eff6ee;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+nav a{
+    font-size: larger;
+    color: #eff6ee;
+    text-decoration: none;
+}
+nav a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Home{
+    background-color: #eff6ee;
+    text-align: center;
+    padding: 80px ;
+    height: 100px;
+}
+.Home a{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #4bae51;
+    color: #eff6ee;
+    text-decoration: none;
+}
+.Home a:hover{
+    font-weight: bold;
+}
+.Top-Destinations{
+    background-color: #dcedc9;
+    padding: 90px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+
+}
+.Top-Destinations img{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.box{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+   max-height: 300px;
+     max-width: 220px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.Cultural-Highlights{
+    background-color: #eff6ee;
+    padding: 90px;
+    text-align: center;
+}
+.Cultural-Highlights img{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+.culture{
+    background-color: #fff;
+    height: 300px;
+    width: 220px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.culture-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Travel-Wishlist{
+    background-color: #dcedc9;
+    padding: 60px ;
+    height: 100px;
+    text-align: center;
+}
+.Contact{
+    background-color: #eff6ee;
+    padding: 50px ;
+    height: 100px;
+    text-align: center;
+}
+.Contact a{
+display: inline-block;
+padding: 10px 20px;
+border-radius: 10px;
+background-color: #4bae51;
+color: #eff6ee;
+text-decoration: none;
+}
+.Contact a:hover{
+    font-weight: bold;
+}
+footer{
+    background-color: #2f7d32;
+    color: #eff6ee;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+}
+@media (max-width: 768px) {
+    .box-container,
+    .culture-container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .box,
+    .culture {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
