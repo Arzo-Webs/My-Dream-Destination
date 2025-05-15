@@ -63,7 +63,7 @@ nav a:hover{
     border-radius: 10px;
     justify-content: center;
 }
-.box{
+.box, .culture{
     background-color: #fff;
      height: 300px;
      width: 220px;
@@ -75,14 +75,6 @@ nav a:hover{
     background-color: #eff6ee;
     padding: 90px;
     text-align: center;
-}
-.culture{
-    background-color: #fff;
-    height: 300px;
-    width: 220px;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 10px;
 }
 .Travel-Wishlist{
     background-color: #dcedc9;
