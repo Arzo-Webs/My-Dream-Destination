@@ -120,4 +120,7 @@ footer{
         width: 90%;
         max-width: 300px;
     }
+    .nav-bar {
+        padding: 10px;
+    }
 }
