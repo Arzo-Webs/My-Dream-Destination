@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: auto;
     padding-top: 0;
 }
 .nav-bar{
@@ -29,8 +29,8 @@ nav a:hover{
 .Home{
     background-color: #eff6ee;
     text-align: center;
-    padding: 80px ;
-    height: 100px;
+    padding: 60px ;
+    height: 200px;
 }
 .Home a{
     display: inline-block;
@@ -39,6 +39,7 @@ nav a:hover{
     background-color: #4bae51;
     color: #eff6ee;
     text-decoration: none;
+     cursor: pointer;
 }
 .Home a:hover{
     font-weight: bold;
@@ -86,7 +87,7 @@ nav a:hover{
 .Travel-Wishlist{
     background-color: #dcedc9;
     padding: 60px ;
-    height: 100px;
+    height: 200px;
     text-align: center;
 }
 .Contact{
@@ -102,6 +103,7 @@ border-radius: 10px;
 background-color: #4bae51;
 color: #eff6ee;
 text-decoration: none;
+cursor: pointer;
 }
 .Contact a:hover{
     font-weight: bold;
